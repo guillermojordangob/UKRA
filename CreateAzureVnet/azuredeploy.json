@@ -41,7 +41,7 @@
       "type": "string",
       "defaultValue": "App-Subnet",
       "metadata": {
-        "description": App-Subnet for UK Risk Analytics environment"
+        "description": "App-Subnet for UK Risk Analytics environment"
       }
     },
     "subnet3Prefix": {
@@ -55,7 +55,7 @@
       "type": "string",
       "defaultValue": "Data-Subnet",
       "metadata": {
-        "description": Data-Subnet for UK Risk Analytics environment"
+        "description": "Data-Subnet for UK Risk Analytics environment"
       }
     },
 
