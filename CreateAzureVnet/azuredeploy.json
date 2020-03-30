@@ -113,6 +113,7 @@
           "name": "[parameters('subnet3Name')]",
           "dependsOn": [
             "[parameters('vnetName')]"
+            "[parameters('subnet3Name')]"
           ],
           "properties": {
             "addressPrefix": "[parameters('subnet3Prefix')]"
