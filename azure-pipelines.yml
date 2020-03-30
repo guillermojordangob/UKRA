@@ -19,7 +19,7 @@ steps:
     templateLocation: 'Linked artifact'
     csmFile: 'CreateAzureStorage/azuredeploy.json'
     deploymentMode: 'Incremental'
-- task: AzureResourceGroupDeployment@2
+- task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
     ConnectedServiceName: 'AzureRmPipeline-conn'
