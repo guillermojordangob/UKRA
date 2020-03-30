@@ -100,7 +100,7 @@
           "name": "[parameters('subnet2Name')]",
           "dependsOn": [
             "[parameters('vnetName')]",
-            "[parameters('subnet1Name')]"
+            "[parameters('subnet2Name')]"
           ],
           "properties": {
             "addressPrefix": "[parameters('subnet2Prefix')]"
